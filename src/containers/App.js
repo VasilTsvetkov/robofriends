@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll.js';
 import './App.css';
 import { setSearchField, requestRobots } from '../actions.js';
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
 	return {
 		searchField: state.searchRobots.searchField,
 		robots: state.requestRobots.robots,
